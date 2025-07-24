@@ -82,6 +82,8 @@ def monitorar_perda(limiar_perda=0.1, janela_frames=100):
     cursor.close()
     conn.close()
 
+
+
 if __name__ == "__main__":
     # Simule dados para todas as câmeras
     simular_metricas_cameras()
